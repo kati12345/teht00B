@@ -1,0 +1,43 @@
+#box {
+	border: 2px solid;
+	padding: 10px;
+	box-shadow: 5px 10px purple;
+}
+
+#text {
+	text-shadow: 2px 2px yellow;
+}
+
+#laatikko {
+	border: 1px solid;
+	padding: 10px;
+}
+
+
+#kukka {
+	background: url(kukkapelto.jpg);
+	padding: 40px;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+body {
+	max-width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+a {
+	transition: background-color 2s ease-out;
+}
+
+a:hover {
+	background-color: red;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+	color: purple;
+  }
+  
